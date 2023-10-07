@@ -5,6 +5,11 @@
     font-family: 'roboto', sans-serif;
 }
 
+*::selection{
+    background-color: white;
+    color: #D9A686;
+}
+
 html,
 body {
     width: 100%;
@@ -35,11 +40,13 @@ body {
     gap: 10vw;
     font-size: 1vw;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .nav .navLeft a {
     position: relative;
-    padding: 0 1.4vw;
+    margin: 0 1.4vw;
+    width: fit-content;
 }
 
 .nav .navBottom{
@@ -56,7 +63,7 @@ body {
 
 .nav .navRight a {
     position: relative;
-    padding: 0 1.4vw;
+    margin: 0 1.4vw;
 }
 
 .content {
@@ -116,12 +123,14 @@ body {
     position: relative;
     width: 50%;
     height: 100%;
-    background-color: #fff;
-    background-image: url('pic02.jpg');
-    background-size: cover;
-    background-position: center;
     border-top-left-radius: 15%;
     border-top-right-radius: 50%;
+    overflow: hidden;
+}
+
+.right .rightTop .rightTopLeft img{
+    width: 100%;
+    object-fit: cover;
 }
 
 .right .rightTop .rightTopRight {
@@ -155,12 +164,14 @@ body {
     position: relative;
     width: 50%;
     height: 100%;
-    background-color: #fff;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 15%;
-    background-image: url('pic01.jpg');
-    background-size: cover;
-    background-position: center;
+    overflow: hidden;
+}
+
+.right .rightBottom .rightBottomRight img{
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 500px) {

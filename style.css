@@ -75,6 +75,24 @@ body {
     opacity: 0;
 }
 
+.nav .dropmenu{
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    top: 8%;
+    background-color: rgba(0, 0, 0, 0.307);
+    padding: 5vw;
+    height: calc(100vh - 8%);
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: top;
+    font-size: 8vw;
+    line-height: 1.8;
+    opacity: 0;
+}
+
 .content {
     width: 100%;
     height: calc(100% - 8%);
@@ -199,6 +217,10 @@ body {
     .nav .navBottom h3{
         font-size: 35px;
         margin-left: auto;
+    }
+
+    .nav .dropmenu{
+        opacity: 1;
     }
 
     .content .left {

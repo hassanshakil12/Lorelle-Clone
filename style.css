@@ -91,6 +91,11 @@ body {
     font-size: 8vw;
     line-height: 1.8;
     opacity: 0;
+    display: none;
+}
+
+.nav .dropmenu h4{
+    color: white;
 }
 
 .content {
@@ -220,7 +225,8 @@ body {
     }
 
     .nav .dropmenu{
-        opacity: 1;
+        opacity: 0;
+        display: block;
     }
 
     .content .left {

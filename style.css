@@ -89,9 +89,10 @@ body {
     align-items: left;
     justify-content: top;
     font-size: 8vw;
-    line-height: 1.8;
+    line-height: 2;
     opacity: 0;
     display: none;
+    letter-spacing: 0.7vw;
 }
 
 .nav .dropmenu h4{

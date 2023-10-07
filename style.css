@@ -67,6 +67,14 @@ body {
     margin: 0 1.4vw;
 }
 
+.nav i{
+    position: absolute;
+    font-size: 38px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    opacity: 0;
+}
+
 .content {
     width: 100%;
     height: calc(100% - 8%);
@@ -103,6 +111,7 @@ body {
     background-color: transparent;
     padding-bottom: 0.2vw;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .right {
@@ -179,12 +188,16 @@ body {
         flex-direction: column;
     }
 
+    .nav i{
+        opacity: 1;
+    }
+
     .nav a{
         display: none;
     }
 
     .nav .navBottom h3{
-        font-size: 6vw;
+        font-size: 35px;
         margin-left: auto;
     }
 

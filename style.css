@@ -97,6 +97,8 @@ body {
 
 .nav .dropmenu h4{
     color: white;
+    cursor: pointer;
+    width: fit-content;
 }
 
 .content {

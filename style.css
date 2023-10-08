@@ -101,6 +101,8 @@ body {
     color: white;
     cursor: pointer;
     width: fit-content;
+    font-family: 'crimson text', sans-serif;
+    font-weight: 100;
 }
 
 .content {

@@ -12,7 +12,7 @@
 
 html,
 body {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-color: rgb(234, 225, 215);
     overflow: hidden;
@@ -30,7 +30,6 @@ body {
     align-items: center;
     width: 100%;
     height: 8%;
-    /* background-color: rgb(143, 112, 112); */
     border-bottom: 1px solid black;
     padding: 0 8vw;
 }
@@ -105,7 +104,7 @@ body {
 }
 
 .content {
-    width: 100vw;
+    width: 100%;
     height: calc(100% - 8%);
     display: flex;
     overflow: hidden;
@@ -211,6 +210,46 @@ body {
 .right .rightBottom .rightBottomRight img{
     width: 100%;
     object-fit: cover;
+}
+
+@media (min-width: 1100px) and (max-width: 1400px){
+    .nav a{
+        font-size: 1.3vw;
+    }
+
+    .nav .navBottom h3{
+        font-size: 1.9vw;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1099px){
+    .nav a{
+        font-size: 1.6vw;
+    }
+
+    .nav .navBottom h3{
+        font-size: 2.2vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+    .nav a{
+        font-size: 1.8vw;
+    }
+
+    .nav .navBottom h3{
+        font-size: 2.4vw;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px){
+    .nav a{
+        font-size: 2.1vw;
+    }
+
+    .nav .navBottom h3{
+        font-size: 2.7vw;
+    }
 }
 
 @media (max-width: 500px) {

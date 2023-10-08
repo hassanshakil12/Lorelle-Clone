@@ -95,7 +95,7 @@ body {
     display: none;
     letter-spacing: 0.7vw;
     transform: translateX(100%);
-    transition: all ease 0.25s;
+    transition: all ease 0.35s;
 }
 
 .nav .dropmenu h4{
@@ -216,6 +216,7 @@ body {
 @media (max-width: 500px) {
     .content {
         flex-direction: column;
+        transition: all ease 0.25s;
     }
 
     .nav i{

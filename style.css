@@ -12,9 +12,10 @@
 
 html,
 body {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-color: rgb(234, 225, 215);
+    overflow: hidden;
 }
 
 .main {
@@ -93,6 +94,8 @@ body {
     opacity: 0;
     display: none;
     letter-spacing: 0.7vw;
+    transform: translateX(100%);
+    transition: all ease 0.25s;
 }
 
 .nav .dropmenu h4{
@@ -102,9 +105,10 @@ body {
 }
 
 .content {
-    width: 100%;
+    width: 100vw;
     height: calc(100% - 8%);
     display: flex;
+    overflow: hidden;
 }
 
 .left {
